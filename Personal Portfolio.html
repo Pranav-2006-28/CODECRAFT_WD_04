@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranav Mahajan Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px;
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            color: #17a2b8;
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: #fff;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: rgba(0, 0, 0, 0.9);
+            padding: 10px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: 0.3s ease;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background: #17a2b8;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        section h2 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            color: #17a2b8;
+            text-align: center;
+        }
+
+        section p {
+            font-size: 1.2em;
+            text-align: center;
+        }
+
+        .skills, .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .skill, .project {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            width: 250px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .skill:hover, .project:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .skill h3, .project h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #17a2b8;
+        }
+
+        .skill p, .project p {
+            font-size: 1em;
+            color: #e0e0e0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        footer p {
+            font-size: 1em;
+            color: #fff;
+        }
+
+        .icon {
+            font-size: 2em;
+            margin: 10px;
+            color: #17a2b8;
+            transition: 0.3s;
+            text-decoration: none;
+        }
+
+        .icon:hover {
+            color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pranav Mahajan Portfolio</h1>
+        <p>Web Developer | Designer | Innovator</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Pranav Mahajan, a passionate web developer specializing in building responsive and user-friendly websites. I love turning innovative ideas into functional and visually appealing digital experiences.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill">
+                    <h3><i class="fas fa-code"></i> HTML & CSS</h3>
+                    <p>Creating responsive and visually engaging websites.</p>
+                </div>
+                <div class="skill">
+                    <h3><i class="fab fa-js"></i> JavaScript</h3>
+                    <p>Developing interactive and dynamic user interfaces.</p>
+                </div>
+                <div class="skill">
+                    <h3><i class="fab fa-react"></i> React</h3>
+                    <p>Building modern front-end web applications.</p>
+                </div>
+                <div class="skill">
+                    <h3><i class="fas fa-server"></i> ASP.NET</h3>
+                    <p>Building robust backend systems and APIs.</p>
+                </div>
+                <div class="skill">
+                    <h3><i class="fab fa-php"></i> PHP</h3>
+                    <p>Creating dynamic server-side applications.</p>
+                </div>
+                <div class="skill">
+                    <h3><i class="fab fa-python"></i> Python</h3>
+                    <p>Programming for automation and data analysis.</p>
+                </div>
+                <div class="skill">
+                    <h3><i class="fab fa-java"></i> Java</h3>
+                    <p>Developing scalable and secure applications.</p>
+                </div>
+                <div class="skill">
+                    <h3><i class="fas fa-cogs"></i> C++</h3>
+                    <p>Building efficient and high-performance applications.</p>
+                </div>
+                <div class="skill">
+                    <h3><i class="fab fa-bootstrap"></i> Bootstrap</h3>
+                    <p>Creating mobile-first and responsive designs.</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3><i class="fas fa-cloud-sun"></i> Weather App</h3>
+                    <p>A real-time weather forecasting app built with OpenWeatherMap API.</p>
+                </div>
+                <div class="project">
+                    <h3><i class="fas fa-laptop-code"></i> Portfolio Website</h3>
+                    <p>A responsive personal portfolio website showcasing my skills and projects in a modern and elegant layout.</p>
+                </div>
+                <div class="project">
+                    <h3><i class="fas fa-gamepad"></i> Tic-Tac-Toe Web Application</h3>
+                    <p>An interactive and engaging tic-tac-toe game built with JavaScript and HTML5.</p>
+                </div>
+                <div class="project">
+                    <h3><i class="fas fa-globe"></i> Landing Website</h3>
+                    <p>A beautifully designed landing page showcasing brand identity and user engagement.</p>
+                </div>
+                <div class="project">
+                    <h3><i class="fas fa-stopwatch"></i> Stopwatch Application</h3>
+                    <p>A functional and sleek stopwatch app created using JavaScript and CSS.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Have a project in mind? Let's connect!</p>
+            <p><i class="fas fa-envelope"></i> Email: pranavmahajan492@gmail.com</p>
+            <p><i class="fas fa-phone"></i> Phone: +123 456 7890</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Pranav Mahajan. All rights reserved.</p>
+        <div>
+            <a href="https://www.linkedin.com/in/pranav-mahajan-2bb028318/" target="_blank" class="icon"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Pranav-2006-28" target="_blank" class="icon"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank" class="icon"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
